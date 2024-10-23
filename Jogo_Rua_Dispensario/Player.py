@@ -31,7 +31,7 @@ for i in range(4):
 width = 900
 height = 600
 
-class Player(pygame.sprite.Sprite):
+class Player:
     def __init__(self, screen):
         pygame.sprite.Sprite.__init__(self)
         self.sprites:list = PLAYER_RUN
